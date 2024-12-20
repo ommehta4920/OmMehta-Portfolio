@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Om Mehta</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 
 <body>
     <nav id="desktop-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Om Mehta</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#profile">Profile</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
@@ -34,12 +35,12 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#profile" onclick="toggleMenu()">Profile</a></li>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 <li>
-                    <img id="modeToggle2" class="icon color-icon" src="./assets/theme_light.png" src-light="./assets/theme_light.png" src-dark="./assets/theme_dark.png" alt="Color theme icon">
+                    <img id="modeToggle2" class="icon color-icon" src="./assets/theme_light.png" src-light="./assets/theme_light.png" src-dark="./assets/theme_dark.png" alt="Color theme icon" onclick="toggleMenu()">
                 </li>
             </div>
         </div>
@@ -47,20 +48,20 @@
 
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="John Doe Profile Picture">
+            <img src="./assets/profile-pic.png" alt="My Profile Picture">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">John Doe</h1>
-            <p class="section__text__p2">Frontend Developer</p>
+            <h1 class="title">Om Mehta</h1>
+            <p class="section__text__p2" id="typing"> </p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download
+                <button class="btn btn-color-2" onclick="window.open('./assets/my_resume.pdf')">Download
                     CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin_light.png" src-light="./assets/linkedin_light.png" src-dark="./assets/linkedin_dark.png" alt="My LinkedIn Profile" class="icon linkedin-icon" onclick="location.href='https://linkedin.com/'">
-                <img src="./assets/github_light.png" src-light="./assets/github_light.png" src-dark="./assets/github_dark.png" alt="My Github Profile" class="icon github-icon" onclick="location.href='https://github.com/'">
+                <img src="./assets/linkedin_light.png" src-light="./assets/linkedin_light.png" src-dark="./assets/linkedin_dark.png" alt="My LinkedIn Profile" class="icon linkedin-icon" onclick="location.href='https://www.linkedin.com/in/om-mehta-b763172a2/'">
+                <img src="./assets/github_light.png" src-light="./assets/github_light.png" src-dark="./assets/github_dark.png" alt="My Github Profile" class="icon github-icon" onclick="location.href='https://github.com/ommehta4920'">
             </div>
         </div>
     </section>
@@ -251,8 +252,8 @@
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-links">
-                    <li><a href="#profile">Profile</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>

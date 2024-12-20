@@ -224,6 +224,7 @@ section {
 }
 
 .section__text {
+  width: 500px;
   align-self: center;
   text-align: center;
 }
@@ -239,6 +240,7 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  min-height: 50px;
 }
 
 .title {
